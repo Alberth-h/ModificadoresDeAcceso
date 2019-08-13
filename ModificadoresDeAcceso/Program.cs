@@ -11,9 +11,13 @@ namespace ModificadoresDeAcceso
         static void Main(string[] args)
         {
             Cliente cliente = new Cliente();
+            Cuenta cuenta = new Cuenta();
 
             cliente.Nombre = "Alberto";
             cliente.Telefono = "6664206913";
+
+            cuenta.Propietario = "Alberto";
+
 
             Console.WriteLine("Nombre: " + cliente.Nombre);
             Console.WriteLine("Telefono: " + cliente.Telefono);
